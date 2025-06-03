@@ -18,3 +18,13 @@ This project is in early development stage and aims to provide a unique way to e
 
 
 pip install -r requirements.txt
+
+
+
+USE:
+
+ GROQ_API_KEY=
+
+ RUN:
+    Streamlit run main.py
+    
