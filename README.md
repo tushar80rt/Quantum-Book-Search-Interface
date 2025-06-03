@@ -1,4 +1,4 @@
-# Quantum Book Search Interface
+# Universal Pages
 
 A simple Python-based interface for searching books, inspired by quantum computing concepts.  
 This project is in early development stage and aims to provide a unique way to explore and search books.
