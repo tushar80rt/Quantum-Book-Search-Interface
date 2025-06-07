@@ -1,15 +1,10 @@
 import groq
-import os
 import json
-from dotenv import load_dotenv
-
-load_dotenv(dotenv_path='api.env')
+from config import get_api_key
 
 class Agent:
     def __init__(self):
-        api_key = os.getenv("GROQ_API_KEY")
-        if not api_key:
-            raise ValueError("GROQ_API_KEY is missing.")
+        api_key = get_api_key()
         self.client = groq.Groq(api_key=api_key)
 
     def ask(self, prompt: str):
